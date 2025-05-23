@@ -91,8 +91,28 @@ public class Main {
 //        System.out.println(result);
 
         // 91. Decode Ways
-        DecodeWays dw = new DecodeWays();
-        int result = dw.numDecodings("2101");
+//        DecodeWays dw = new DecodeWays();
+//        int result = dw.numDecodings("2101");
+//        System.out.println(result);
+
+        // 208. Implement Trie (Prefix Tree)
+//        Trie trie = new Trie();
+//        trie.insert("apple");
+//        System.out.println(trie.search("apple"));
+//        System.out.println(trie.search("app"));
+//        System.out.println(trie.startsWith("app"));
+//        trie.insert("app");
+//        System.out.println(trie.search("app"));
+
+        // 154. Find Minimum in Rotated Sorted Array II
+//        FindMinimunRotatedSortedArray fr = new FindMinimunRotatedSortedArray();
+//        int result = fr.findMin(new int[]{2,2,2,0,1});
+//        System.out.println(result);
+
+        LongestCommonPrefix lp = new LongestCommonPrefix();
+        String result = lp.longestCommonPrefix(new String[] {"flower","flow","flight"});
         System.out.println(result);
+
+
     }
 }
